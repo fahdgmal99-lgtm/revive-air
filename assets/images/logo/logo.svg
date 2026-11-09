@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" fill="none">
+  <!-- Cooling airflow & snowflake symbol -->
+  <g transform="translate(10, 10)">
+    <!-- Outer ambient circle -->
+    <circle cx="30" cy="30" r="28" stroke="#3FA9F5" stroke-width="1.5" stroke-opacity="0.3" stroke-dasharray="3 3"/>
+    
+    <!-- Central HVAC Snowflake / Airflow Geometry -->
+    <path d="M30 6 L30 54 M6 30 L54 30" stroke="#0A4D8C" stroke-width="3" stroke-linecap="round"/>
+    <path d="M13 13 L47 47 M13 47 L47 13" stroke="#3FA9F5" stroke-width="2.5" stroke-linecap="round"/>
+    
+    <!-- Arrowhead vents / Air circulation petals -->
+    <path d="M26 12 L30 6 L34 12" stroke="#7ED6DF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M26 48 L30 54 L34 48" stroke="#7ED6DF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M12 26 L6 30 L12 34" stroke="#7ED6DF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M48 26 L54 30 L48 34" stroke="#7ED6DF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Central Core -->
+    <circle cx="30" cy="30" r="5" fill="#0A4D8C"/>
+    <circle cx="30" cy="30" r="2.5" fill="#7ED6DF"/>
+  </g>
+
+  <!-- Brand Typography -->
+  <g transform="translate(80, 24)">
+    <!-- English Wordmark -->
+    <text x="0" y="24" font-family="'Plus Jakarta Sans', 'Segoe UI', -apple-system, sans-serif" font-size="24" font-weight="800" letter-spacing="1.5" fill="#0A4D8C">
+      REVIVE <tspan fill="#3FA9F5">AIR</tspan>
+    </text>
+    <!-- Subtitle / Arabic brand note -->
+    <text x="2" y="42" font-family="'Cairo', 'Segoe UI', sans-serif" font-size="11" font-weight="600" letter-spacing="0.5" fill="#64748B">
+      ريفايف إير • للتكييف والتبريد وفلاتر المياه
+    </text>
+  </g>
+</svg>
