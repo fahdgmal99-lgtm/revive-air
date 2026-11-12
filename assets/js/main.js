@@ -10,7 +10,11 @@
   const PHONE_NUMBER = '01028805759';
   const WHATSAPP_INTL = '201028805759';
   const DEFAULT_LANG = 'ar';
-  let currentLang = localStorage.getItem('revive_lang') || DEFAULT_LANG;
+  const urlParams = typeof window !== 'undefined' && window.location ? new URLSearchParams(window.location.search) : null;
+  const langFromUrl = urlParams ? urlParams.get('lang') : null;
+  let currentLang = (langFromUrl === 'ar' || langFromUrl === 'en')
+    ? langFromUrl
+    : (localStorage.getItem('revive_lang') || DEFAULT_LANG);
   let currentFilter = 'all';
 
   // DOM Elements Cache

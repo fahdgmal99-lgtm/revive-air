@@ -2,5 +2,5 @@
 User-agent: *
 Allow: /
 
-# Sitemap placeholder (update domain before launch)
-Sitemap: https://reviveair-eg.com/sitemap.xml
+# Sitemap
+Sitemap: https://revive-air.pages.dev/sitemap.xml
